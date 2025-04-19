@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Result</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="static/assets/images/fav-icon/icon.png">
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="static/assets/css/bootstrap.min.css" type="text/css" media="all">
+	<!-- Main Style CSS -->
+	<link rel="stylesheet" href="static/assets/css/style.css" type="text/css" media="all">  
+	<!-- responsive CSS -->
+	<link rel="stylesheet" href="static/assets/css/responsive.css" type="text/css" media="all">
+	<!-- modernizr js -->
+	<script src="static/assets/js/vendor/modernizr-3.5.0.min.js"></script>
+	<link href="https://fonts.cdnfonts.com/css/clash-display" rel="stylesheet">
+	<style>
+		table, tr, td {
+			border: 1px solid black;
+			border-radius: 10px;
+		}
+		table {
+            margin: 0 auto;
+            height: 20vh;
+            width: 40vh;
+        }
+		</style>      
+                
+</head>
+
+<body>
+
+
+
+	<!--==================================================-->
+	<!-- Start Dreamhub Header Top Menu Area Css -->
+	<!--==================================================-->
+
+	<div class="header_top_menu">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-4 col-sm-4">
+					<div class="header_top_menu_icon">
+						<div class="header_top_menu_icon_inner">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<!--==================================================-->
+	<!-- End	Dreamhub Header Top Menu Area Css -->
+	<!--===================================================-->
+
+
+	<!--==================================================-->
+	<!-- Start Dentist Main Menu  -->
+	<!--==================================================-->
+	<div id="sticky-header" class="dentist_nav_manu">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-2">
+					<div class="logo">
+						<a class="logo_img" href="#" title="dentist">
+							<img src="static/assets/images/logo.png" alt="logo">
+						</a>
+						<a class="main_sticky" href="#" title="dentist">
+							<img src="static/assets/images/logo.png" alt="logo">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-10">
+					<nav class="dentist_menu">
+						<ul class="nav_scroll">
+							<li><a href="/index">Classification</a></li>
+                            <li><a href="/about">Graph</a></li>
+							<li><a href="/notebook">Notebook</a></li>
+						</ul>
+						<!-- header button -->
+						<div class="header-right">
+							<div class="header-button">
+								<a href="/login">Signout</a>
+							</div>
+							<div class="search-box-btn search-box-outer">
+								<div class="nav-btn navSidebar-button"><a><i class="fas fa-bars"></i></a></div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="hero-section d-flex align-items-center">
+		<div class="container">
+			<div class="row hero-bg">
+				<div class="col-lg-6">
+					<div class="hero-content">
+						<h5>Welcome to Dashboard!</h5>
+						
+						<p>Automated Skin Disease Detection Using Deep Learning</p>
+						
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="hero-thumb">
+						<img src="static/assets/images/slider/hero-img.png" alt="">
+						<div class="slider-shape">
+							<div class="shape1"><img src="static/assets/images/slider/slider-shape1.png" alt=""></div>
+							<div class="shape2"><img src="static/assets/images/slider/slider-shape2.png" alt=""></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!-- End dentist Hero Section  -->
+	<!--==================================================-->
+
+		
+
+
+	<!--==================================================-->
+	<!-- Start dentist About Section  -->
+	<!--==================================================-->
+
+	<div class="about-section">
+		<div class="container">
+			<div class="row about-bg">
+				
+
+                <h1 class="text-dark mb-5"> Your Prediction </h1>
+                <p class="text-dark"> The result is: </p><br>
+                <div class="upload">
+                    <h3>Uploaded Image:</h3>
+                    <div class="first">
+                        {% if img_src %}
+                        <img src="{{ img_src }}">
+                        {% endif %}
+                    </div>
+                </div>
+                <br>
+                <h3>The Predicted as :</h3>
+                <br>
+                <h3 style="font-size: xx-large;color: darkslateblue;">{{pred_output}}</h3>
+                <br />
+                
+       <br><br><br>
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT US SECTION END -->
+
+<!-- FOOTER START -->
+<footer>
+<div class="container-fluid">
+
+<p class="text-center py-32">@2025 All Rights Copyright <a href="index.html" class="fw-700 black">NovaCare.</a> Design & Developed By <span class="black fw-700">UIPARADOX</span></p>
+</div>
+</footer>
+<!-- FOOTER END -->
+
+</div>
+<!-- Main Wrapper End -->
+
+<!-- Back To Top Start -->
+<button id="back-to-top"><i class="fa-solid fa-arrow-turn-up"></i></button>
+
+
+
+
+<!-- Jquery Js -->
+<script src="static/assets/js/vendor/bootstrap.min.js"></script>
+<script src="static/assets/js/vendor/jquery-3.6.3.min.js"></script>
+<script src="static/assets/js/vendor/jquery-validator.js"></script>
+<script src="static/assets/js/vendor/slick.min.js"></script>
+<script src="static/assets/js/vendor/smoothscroller.js"></script>
+<script src="static/assets/js/vendor/picker.js"></script>
+<script src="static/assets/js/vendor/picker.date.js"></script>
+
+<script src="static/assets/js/date.js"></script>
+<script src="static/assets/js/app.js"></script>
+
+</body>
+
+</html>

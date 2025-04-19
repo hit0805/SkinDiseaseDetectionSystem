@@ -1,0 +1,43 @@
+Notebook
+-------------
+
+1. Importing the Packages
+2. Exploring the Datasets
+	- Skin Disease Data
+3. Image Data Augmentation
+	- Re-scaling the Image
+	- Shear Transformation
+	- Zooming the Image
+	- Horizontal Flip 
+	- Reshaping the Image 
+4. Function for calculating the Recall, Precision and F1 Score
+5. Defining the EarlyStopping to avoid either Under/Over Fitting
+6. Calling the Model
+	
+	- VGG16
+	- Xception
+	- NASNetMobile
+	- Xception + NASNetMobile
+
+
+7. Building and Training the model  
+8. Dumping the best model for classifying the abnormalities further
+9. Evaluting the Models using Accuracy, Precision, Recall, F1Score, Confusion Matrix and ROC Curve
+
+
+FrontEnd
+--------
+
+10. Frontend is developed with help of Flask Framework, along with Registration and Login setup with support of Sqlite DB
+11. For the frontend we used the data for classifying and detecting
+12. User uploads an image
+	- Classification
+13. The given input is preprocessed for classifying and detecting
+14. Trained model is used for classifying and detecting
+15. Final outcome is displayed through frontend
+
+
+Dataset 
+--------
+
+https://www.kaggle.com/datasets/alisahad/dermnet-augmented-datasetno-watermark - Class Taken as per requirement
