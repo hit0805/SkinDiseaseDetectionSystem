@@ -14,3 +14,20 @@ The objective is to develop an automated skin disease detection system using dee
 2) Processor: i5 and above
 3) Ram: 8GB and above 
 4) Hard Disk: 25 GB in local drive
+
+SCREENSHOTS
+![image](https://github.com/user-attachments/assets/e687b77d-65b5-41d1-85e8-62e1fa901ed9)
+![image](https://github.com/user-attachments/assets/2a913028-58b3-41a8-ac25-e784db693d71)
+![image](https://github.com/user-attachments/assets/7042cb40-d7d3-4455-8895-81471446855a)
+![image](https://github.com/user-attachments/assets/e19b63e2-c9f0-4e49-8cad-049e1986963b)
+![image](https://github.com/user-attachments/assets/1b7bf48e-0e03-456a-87ad-40964bb87cd2)
+![image](https://github.com/user-attachments/assets/b345eb70-308e-487d-a676-d1bbb1ff0c8c)
+![image](https://github.com/user-attachments/assets/38b2f5d6-43e4-4b9b-acbd-50a170b33ce1)
+![image](https://github.com/user-attachments/assets/b5f5f74f-55bc-42e7-97b2-e89f20995752)
+
+
+
+
+
+
+
